@@ -1,0 +1,97 @@
+    body { font-family: "Lucida-grande",sans-serif; font-size: 1em; background:#f4f5f6; }
+    
+    #container { width: 780px; margin: 0 auto; padding: 1em 0;  }
+    p { margin: 1em 0; max-width: 700px; }
+    h1 + p { margin-top: 0; }
+    
+    h1, h2 { font-family: Georgia, Times, serif; }
+    h1 { font-size: 2em; margin-bottom: .75em; }
+    h2 { font-size: 1.5em; margin: 2.5em 0 .5em;  display:inline;} /*border-bottom: 1px solid #999; padding-bottom: 5px; */
+    h3 { font-weight: bold; margin-top:1em; }
+    
+    ul li { list-style: disc; margin-left: 1em; }
+    ol li { margin-left: 1.25em; }
+    
+    div.side-by-side { width: 100%; margin-bottom: 1em; }
+    div.side-by-side > div { float: left; width: 50%; }
+    div.side-by-side > div > em { margin-bottom: 10px; display: block; }
+    
+    a { color: orange; text-decoration: underline; }
+    
+    .faqs em { display: block; }
+    
+    .clearfix:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      clear: both;
+      overflow: hidden;
+      visibility: hidden;
+    }
+    button,input[type=button]{
+	cursor:pointer;
+  vertical-align:top;height:30px;border: 1px solid #aaa;
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow   : 0 1px 0 #fff inset;
+  -o-box-shadow     : 0 1px 0 #fff inset;
+  box-shadow        : 0 1px 0 #fff inset;
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(0.5, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -moz-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -o-linear-gradient(bottom, white 0%, #eeeeee 50%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+  -webkit-border-bottom-left-radius : 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft : 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-left-radius : 0;
+  border-bottom-right-radius: 0;}
+    footer {
+      margin-top: 2em;
+      border-top: 1px solid #666;
+      padding-top: 5px;
+    }
+    
+#callLoader {display:none;}
+.box { float:left; margin:.8em .5em;}
+
+.drHeader h2{display:inline;}
+.drHeader a { font-size:.9em;}
+
+
+/* @group Single Chosen */
+ input {
+  background: #fff url('chosen-sprite.png') no-repeat 100% -20px;
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -20px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -20px, linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  outline: 0;
+  border: 1px solid #aaa;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#status, #search {
+	margin-top:20px;
+	}
+#choice {margin-left:100px;}
+
+#choice, #search, #results {
+	display:none;
+}
+#showGraphs {
+	margin-top:100px;
+	display:block;
+}
+#graphs {
+	
+}
